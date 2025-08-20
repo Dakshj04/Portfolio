@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, GitHub, Linkedin } from 'lucide-react';
+import { Mail, Phone, Github, Linkedin } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 function Contact({ email, phone, github, linkedin }) {
@@ -29,7 +29,7 @@ function Contact({ email, phone, github, linkedin }) {
   const contactItems = [
     { href: `mailto:${email}`, icon: Mail, label: "Email", value: email },
     { href: `tel:${phone}`, icon: Phone, label: "Phone", value: phone },
-    { href: github, icon: GitHub, label: "GitHub", value: "Dakshj04", external: true },
+    { href: github, icon: Github, label: "GitHub", value: "Dakshj04", external: true },
     { href: linkedin, icon: Linkedin, label: "LinkedIn", value: "daksh-jain", external: true }
   ];
 
